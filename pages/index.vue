@@ -1,24 +1,24 @@
 <template>
-  <div class="container mx-auto min-h-screen flex">
-    <div class="self-center flex flex-auto justify-center">
+  <div class="max-w-sm mx-auto my-40 rounded-lg overflow-hidden">
+    <div class="sm:flex sm:items-center px-4 py-4">
       <img
-        class="rounded-full w-40 h-40 p-2 flex-shrink-0"
+        class="mx-auto sm:mx-0 sm:flex-shrink-0 h-24 sm:h-40 rounded-full"
         src="~assets/img/profile.jpg"
-        alt="Sunset in the mountains"
+        alt="Woman's Face"
       />
-      <div class="text-left px-6 self-center">
-        <h3 class="font-grey-700 text-base">Hi, my name is</h3>
-        <h1 class="font-bold text-xl">Wachid Baharudin</h1>
-        <h3 class="font-grey-700 text-base">I am Node.js Developer</h3>
+      <div class="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
+        <p class="text-sm leading-tight text-gray-700">Hi, my name is</p>
+        <p class="text-xl leading-tight">Wachid Baharudin</p>
+        <p class="text-sm leading-tight text-gray-700">I am Backend Engineer</p>
         <div>
           <a
             href="https://www.linkedin.com/in/wachidbaharudin/"
-            class="no-underline hover:underline text-blue-500"
+            class="no-underline hover:underline text-blue-500 text-sm"
             target="_blank"
           >linkedin</a>
           <a
             href="https://github.com/wachidbaharudin"
-            class="no-underline hover:underline text-blue-500 ml-2"
+            class="no-underline hover:underline text-blue-500 text-sm ml-2"
             target="_blank"
           >github</a>
         </div>
